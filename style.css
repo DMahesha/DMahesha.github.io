@@ -1,0 +1,44 @@
+#grid {
+    height: fit-content;
+    width: fit-content;
+    background-color: lightgray;
+    display: grid;
+    grid-template: 50px 50px 50px 50px 50px/ 50px 50px 50px 50px ;
+    grid-template-areas: 
+    "calc-display calc-display calc-display calc-reset";
+}
+
+#grid:hover {
+    cursor: pointer;
+}
+
+#calc-display {
+    border: solid 1px black;
+    background-color: lightskyblue;
+    grid-area: calc-display;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.num, .oprt, .sign {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc-reset {
+    border: solid 1px black;
+    background-color: orange;
+    grid-area: calc-reset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* No functionality yet */
+#calc-period {
+    background-color: gray;
+}
