@@ -1,2 +1,2 @@
 # dmahesha.github.io
-Github pages for my calculator project
+Github pages for my tic tac toe project
